@@ -27,3 +27,6 @@ int main()
         cout << a[i] <<" ";
     }
 }
+//Basic intuition : Get the minimum value and swap it.
+//Time Complexity = O(N^2) [Best Worst and Average]
+//Space Complexity = O(1)
