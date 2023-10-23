@@ -1,17 +1,13 @@
 #include<iostream>
 using namespace std;
-
 void selectionSort(int a[], int n)
 {
-    for(int i = 0; n - 2 >= i; i++){
-        int min = i;
-        for(int j = i; n - 1 >= j; j++){
-            if(a[j] < a[min]){
-                min = j;
-            }
+    for(int i = 0; n > i; i++){
+        for(int j = i + 1; n > j; j++){
+            if(a[i] > a[j]) swap(a[i], a[j]);
         }
-        swap(a[i], a[min]);
     }
+
 }
 //Driver Code
 int main()
@@ -27,6 +23,11 @@ int main()
         cout << a[i] <<" ";
     }
 }
+/*
+Input Array
+6 
+7 3 2 1 8 4
+*/
 //Basic intuition : Get the minimum value and swap it.
 //Time Complexity = O(N^2) [Best Worst and Average]
 //Space Complexity = O(1)
