@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Time Complexity : T(O(max(a,b)))
 int lcm(int a, int b) {
   int res = max(a, b);
   while (true) {
@@ -11,6 +11,7 @@ int lcm(int a, int b) {
   }
   return res;
 }
+
 int main() {
   int a, b;
   cin >> a >> b;
