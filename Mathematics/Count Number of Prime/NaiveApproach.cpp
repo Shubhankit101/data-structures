@@ -16,7 +16,8 @@ bool isPrime(int n) {
   return true;
 }
 
-// Number till n:
+// Number till n: 
+// Time Complexity O(N *√(N))
 void printPrime(int n) {
   for (int i = 2; n >= i; i++) {
     if (isPrime(i)) {
