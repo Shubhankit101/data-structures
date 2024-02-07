@@ -24,5 +24,8 @@ int main() {
   case '^':
     cout << (a ^ b);
     break;
+  default:
+    cout << "Invalid Operator" << endl;
+    break;
   }
 }
