@@ -26,7 +26,6 @@ int main() {
   cin >> a;
   cout << "Enter 2nd Number" << endl;
   cin >> b;
-
   cout << "Choose Operation among & (AND), | (OR), ^ (XOR)" << endl;
   char c;
   cin >> c;
