@@ -14,6 +14,14 @@ void calculate(int a, int b, char c) {
     cout << (a ^ b);
     break;
 
+  case '<':
+    cout << (a << b);
+    break;
+
+  case '>':
+    cout << (a >> b);
+    break;
+
   default:
     cout << "Invalid Operator" << endl;
     break;
@@ -26,7 +34,8 @@ int main() {
   cin >> a;
   cout << "Enter 2nd Number" << endl;
   cin >> b;
-  cout << "Choose Operation among & (AND), | (OR), ^ (XOR)" << endl;
+  cout << "Choose Operation among & (AND), | (OR), ^ (XOR) , < (LeftShift), > (RightShift)"
+       << endl;
   char c;
   cin >> c;
   // Function to Calculate the Bitwise Operator
