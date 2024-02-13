@@ -38,6 +38,6 @@ int main() {
        << endl;
   char c;
   cin >> c;
-  // Function to Calculate the Bitwise Operator
+  // Function to Calculate the Bitwise Operation among two variables.
   calculate(a, b, c);
 }
