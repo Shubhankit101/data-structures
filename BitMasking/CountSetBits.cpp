@@ -8,7 +8,7 @@ int countSet(int n) {
   int cnt = 0;
   while (n > 0) {
     // Checking the left most bit
-    if ((n & x) != 0) // If not 0, meaning bit was set, hence we increase the count
+    if ((n & x) == 1) // If 1, meaning bit was set, hence we increase the count
       cnt++;
     n = n >> 1; // Right shifting 1 bit
   }
