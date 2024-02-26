@@ -26,4 +26,4 @@ int main() {
   // Enter the number n
   cin >> n;
   cout << isPow2Efficient(n);
-}
+}  
