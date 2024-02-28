@@ -25,19 +25,19 @@ void findTwoOddOccurance(vector<int> v) {
 // 2. Consider a set bit in this number 2 divide the array in 2 groups
 
 void findTwoOddOccurrenceEfficiently(vector<int> v){
+  
   int n = v.size();
   int x = v[0];
-
-  for(int i = 1; n > i; i++){
+  
+  for(int i = 1; n > i; i++)
     x = x ^ v[i];
-  }
+  
   int k = (x & (~ (x - 1)));
   int r1 = 0, r2 = 0;
 
   for(int i = 0; n > i; i++){
     if((v[i] & k) != 0)
       r1 = r1 ^ v[i];
-
     else 
       r2 = r2 ^ v[i];
   }
