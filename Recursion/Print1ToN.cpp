@@ -7,6 +7,8 @@ void print1ToN(int n) {
 
   // Recusive call
   print1ToN(n - 1);
+
+  // Printing the data
   cout << n << " ";
 }
 int main() {
