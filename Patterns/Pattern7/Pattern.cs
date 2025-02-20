@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+namespace Pattern {
+  public class Program {
+    private static void PrintSpace(int cnt) {
+      for (int j = 1; cnt >= j; j++) {
+        Console.Write(" ");
+      }
+    }
+
+    private static void Print(int cnt) {
+      for (int j = 1; cnt >= j; j++) {
+        Console.Write("*");
+      }
+      Console.WriteLine();
+    }
+    public static void Main(string[] args) {
+      int n = Convert.ToInt32(Console.ReadLine());
+
+      for (int i = 1; n >= i; i++) {
+        PrintSpace(n - i);
+        Print(2 * i - 1);
+      }
+    }
+  }
+}
