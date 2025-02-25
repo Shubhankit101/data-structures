@@ -14,3 +14,8 @@ Mathematics
 Recusrion
 
 Advanced Data Structures (Segment Trees, Fenwick Trees, etc.)
+
+## 🤝 Contributing
+
+Feel free to contribute by adding solutions, optimizing code, or improving explanations! Create a pull request, and I’ll be happy to review it. 😊
+
