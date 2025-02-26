@@ -25,7 +25,7 @@ int main()
     int a[n]; 
     for(int i = 0; n > i; i++) cin>>a[i]; 
     
-    bubbleSort(a, n);
+    insertionSort(a, n);
     //Print the sorted array 
     for(int i = 0; n > i; i++){
         cout << a[i] <<" ";
