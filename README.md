@@ -1,5 +1,5 @@
-# Data Structures Repository
 
+# Data Structures Repository
 Welcome to the Data Structures Repository! 🚀 This repository serves as a collection of data structure problems and concepts that I solve and explore. The goal is to enhance my understanding of fundamental and advanced data structures while building an organized reference for future use.
 
 ## 📌 Repository Overview
@@ -14,6 +14,13 @@ Mathematics
 Recusrion
 
 Advanced Data Structures (Segment Trees, Fenwick Trees, etc.)
+
+## 🛠 Technologies & Languages Used
+<ul>
+  <li>C++</li>
+  <li>C#</li>
+</ul>
+
 
 ## 🤝 Contributing
 
