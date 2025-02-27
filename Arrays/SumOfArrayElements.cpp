@@ -3,8 +3,9 @@ using namespace std;
 
 int sum(int arr[], int n){
     int result = 0; 
+    // Iterate through each element and add the sum in the result
     for(int i = 0; n > i; i++){
-        result = result + arr[i];
+        result +=  arr[i];
     }
     return result;
 }
