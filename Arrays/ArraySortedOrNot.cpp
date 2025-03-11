@@ -4,11 +4,15 @@ using namespace std;
 
 int arraySortedOrNot(int arr[], int n) {
     bool isSorted = false;
+    // Iterate through each element
     for(int i = 0; n - 1 > i; i++){
+        
+        // If any element is out of order, return false
         if(arr[i] > arr[i + 1]){
             return isSorted;
         }
     }
+    // All elements are in order
     return true;
 }
 
