@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
+// Create a Node class with left and right poitners
 class Node
 {
 public:
