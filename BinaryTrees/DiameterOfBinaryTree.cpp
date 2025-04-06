@@ -3,6 +3,7 @@
 #include<algorithm>
 using namespace std;
 
+//Node class with left and right pointers of Node type
 class Node
 {
     public:
