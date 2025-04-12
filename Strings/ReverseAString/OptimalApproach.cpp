@@ -7,15 +7,13 @@ using namespace std;
         int n = s.size();
         //Iterate till mid and swap the postions
         for(int i = 0; n / 2 > i; i++){
-            swap(s[i], s[n-i-1]);
+            swap(s[i], s[n - i - 1]);
         }
     }
 // The main Function
 int main() {
-
   string s;
   cout << "Enter a string" << endl;
-
   cin >> s;
   reverse(s);
   cout << s;
