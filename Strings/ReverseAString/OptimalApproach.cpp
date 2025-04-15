@@ -1,15 +1,15 @@
-#include<iostream>
-#include<string>
-#include<stack>
+#include <iostream>
+#include <stack>
+#include <string>
 using namespace std;
 
-    void reverse(string &s){
-        int n = s.size();
-        //Iterate till mid and swap the postions
-        for(int i = 0; n / 2 > i; i++){
-            swap(s[i], s[n - i - 1]);
-        }
-    }
+void reverse(string &s) {
+  int n = s.size();
+  // Iterate till mid and swap the postions
+  for (int i = 0; n / 2 > i; i++) {
+    swap(s[i], s[n - i - 1]);
+  }
+}
 // The main Function
 int main() {
   string s;
@@ -19,5 +19,5 @@ int main() {
   cout << s;
   return 0;
 }
-//Time Complexity : O(N)
-//Space Complexity : O(1)
+// Time Complexity : O(N)
+// Space Complexity : O(1)
