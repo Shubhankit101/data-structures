@@ -20,3 +20,7 @@ int main() {
   else
     cout << "Index of the element: " << index;
 }
+
+
+// Time Complexity : O(N)
+// Space Complexity : O(1)
